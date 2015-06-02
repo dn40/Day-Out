@@ -1,0 +1,42 @@
+"restaurants": [{
+    "name": "Bern's Steak House",
+    "website": "www.bernssteakhouse.com",
+    "description": "With the air of an exclusive club, this is one of Florida's finest steak houses. 
+    Rich mahogany paneling and ornate chandeliers define the legendary Bern 's, where the chef ages his own beef, grows much of his own produce, and roasts his own coffee. 
+    There 's also a Cave Du Fromage, housing a discriminating selection of artisanal cheeses from around the world.
+    Cuts of topmost beef are sold by weight and thickness.The wine list includes approximately 7,
+    000 selections(with 1, 000 dessert wines).
+    After dinner,
+    tour the kitchen and wine cellar before having dessert upstairs in a cozy booth.
+    ",
+    "Address": "1208 S. Howard Ave Tampa, Fl 33606",
+    "hours": "24 hours a day",
+    "location": "www.google.com/maps/place/Bern's+Steak+House/@27.9313445,-82.4823449,18z/data=!4m6!1m3!3m2!1s0x0:0xa227de3eb98b5024!2sBern's+Steak+House!3m1!1s0x0:0xa227de3eb98b5024"
+}, {
+    "name": "West Tampa Sandwich Shop",
+    "website": "www.westtampasandwichshoprestaurant.com",
+    "description": "A community fixture for more than 30 years, West Tampa Sandwich Shop is where people head for a great Cuban sandwich. 
+    Even President Barack Obama couldn’ t resist a stop here in 2012(the menu now features a sandwich in his honor).
+    Regulars also rave about the garbanzo bean soup and cafe con leche.
+    ",
+    "Address": "3904 North Armenia Ave, Tampa, FL 33607",
+    "hours": "Monday-Saturday 5am-3pm Sunday 5am-1pm",
+    "location": "www.google.com/maps/place/West+Tampa+Sandwich+Shop/@27.97341,-82.48502,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0xfc0276f12a8db5cf"
+}, {
+    "name": "Eddie V’s",
+    "websit": "www.eddiev.com",
+    "description": "Eddie V's in Tampa offers a comfortably sophisticated environment, sparkling atmosphere, 
+    and sounds of live jazz that fill the airset the tone
+    for an exceptional dining experience.
+    Choose from a varied selection of the finest seafood available,
+    or indulge in prime center cut steaks,
+    aged 28 days and broiled to perfection.
+    If a more relaxed experience is desired,
+    visit the V Lounge where you can sip classic and creative cocktails,
+    and enjoy signature appetizers against a backdrop of soulful jazz and seductive lighting.
+    ",
+    "Address": "4400 W Boy Scout Blvd, Tampa FL 33607",
+    "hours": "Sunday-Thursday 4pm-11pm Friday-Saturday 4pm-12am",
+
+    "location": "www.google.com/maps/place/eddie+v's+tampa+review/data=!4m2!3m1!1s0x0:0xef093f54ad335150?sa=X&ei=HapsVdjvNszasASIp4PACQ&ved=0CEkQrwswAw"
+}]
