@@ -50,40 +50,57 @@
     </div>
     <div class="container">
         <div ng-view=""></div>
-        <div class="bs-example">
-            <ul class="nav nav-pills">
-                <li class="active"><a href="#">Beaches</a></li>
-                <li><a href="#">Restaurants</a></li>
-                <li><a href="#">Events</a></li>
+        <div class="navpills">
+            <ul ng-init="tab = 1" class="nav nav-pills">
+                <li ng-class="{active:tab===1}" class="active"><a href ng-click="tab = 1">Beaches</a></li>
+                <li ng-class="{active:tab===2}"><a href ng-click="tab = 2">Nightlife</a></li>
+                <!-- <li><a href="#">Nightlife</a></li>-->
+                <li ng-class="{active:tab===3}"><a href ng-click="tab = 3">Restaurants</a></li>
+                <li ng-class="{active:tab===4}"><a href ng-click="tab = 4">Events</a></li>
+                <li ng-class="{active:tab===5}"><a href ng-click="tab = 5">Attractions</a></li>
             </ul>
         </div>
         <div id="beaches" ng-controller="BeachesListCtrl as beaches">
-            <ol><i class="fa fa-sun-o"></i> Beaches:
+            <ol ng-show="tab === 1"><i class="fa fa-sun-o fa-2x"></i> Beaches:
                 <li ng-repeat="beach in beaches"> {{beach.name}}
-                    <a href={{beach.website}}><i class="fa fa-link"></i> Visit their site</a>
+                    <a href ng-click="#beach"><i class="fa fa-link"></i> click here to View More</a>
                 </li>
             </ol>
         </div>
         <div id="nightlife" ng-controller="NightlifeListCtrl as nightlifeplaces">
-            <ol><i class="fa fa-glass"></i> Nightlife:
+            <ol ng-show="tab === 2"><i class="fa fa-glass fa-2x"></i> Nightlife:
                 <li ng-repeat="nightlife in nightlifeplaces"> {{nightlife.name}}
                     <a href={{nightlife.website}}><i class="fa fa-link"></i> Visit their site</a>
                 </li>
             </ol>
         </div>
         <div id="restaurants" ng-controller="RestaurantsListCtrl as restaurants">
-            <ol><i class="fa fa-cutlery"></i> Restaurants:
+            <ol ng-show="tab === 3"><i class="fa fa-cutlery fa-2x"></i> Restaurants:
                 <li ng-repeat="restaurant in restaurants"> {{restaurant.name}}
                     <a href={{restaurant.website}}><i class="fa fa-link"></i> Visit their site</a>
                 </li>
             </ol>
         </div>
-    <!--</div>-->
-    <div class="footer">
-        <div class="container">
-            <p><span class="glyphicon glyphicon-copyright-mark"></span> 2015 DayOutApp team</p>
+        <div id="events" ng-controller="EventsListCtrl as events">
+            <ol ng-show="tab === 4"><i class="fa fa-calendar fa-2x"></i> Events:
+                <li ng-repeat="event in events"> {{event.name}}
+                    <a href={{event.website}}><i class="fa fa-link"></i> Visit their site</a>
+                </li>
+            </ol>
         </div>
-    </div>
+        <div id="attractions" ng-controller="AttractionsListCtrl as attractions">
+            <ol ng-show="tab === 5"><i class="fa fa-smile-o fa-2x"></i> Attractions:
+                <li ng-repeat="attraction in attractions"> {{attraction.name}}
+                    <a href={{attraction.website}}><i class="fa fa-link"></i> Visit their site</a>
+                </li>
+            </ol>
+        </div>
+        <!--</div>-->
+        <div class="footer">
+            <div class="container">
+                <p><span class="glyphicon glyphicon-copyright-mark"></span> 2015 DayOutApp team</p>
+            </div>
+        </div>
     </div>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
     <script>

@@ -1,0 +1,22 @@
+[{
+    "name": "Lowry Park Zoo ",
+    "website": "http://www.lowryparkzoo.com",
+    "address": "1101 West Sligh Ave Tampa, Florida 33604",
+    "description": "re-opened at its current site in 1988, Tampa’s Lowry Park Zoo is today ranked the #1 zoo in the United States (Parents magazine 2009 & Child magazine 2004) and recognized by the State of Florida as a center for Florida wildlife conservation and biodiversity. The regions only dedicated zoological garden, Tampa’s Lowry Park Zoo was designed to enhance quality of life in greater Tampa Bay as an affordable leisure destination and center for education and endangered species conservation.",
+    "hours": "Monday-Sunday 9am-5:30pm",
+    "location": "https://www.google.com/maps/place/Tampa's+Lowry+Park+Zoo/@28.010971,-82.468915,15z/data=!4m6!1m3!3m2!1s0x0:0x1ff635784bc74cdc!2sTampa's+Lowry+Park+Zoo!3m1!1s0x0:0x1ff635784bc74cdc"
+}, {
+    "name": "Busch Gardens",
+    "website": "http://www.buschgardens.com",
+    "address": "10165 N Malcolm McKinley Drive Tampa, Florida 33612",
+    "description": "Busch Gardens is one of those rare places where thrills and nature seem to effortlessly intertwine. From live entertainment to up-close animal attractions, world class coasters and thrill rides to open-air safaris across the Serengeti Plain, you’ll discover a place with something fun for everyone. There are also plenty of things to do in Busch Gardens Tampa for junior explorers. They’ll love the net-climbing fun and close-up animal views of Jungle. And there’s nothing like sharing rides, water play and adventures with your favorite Sesame Street characters at Sesame Street Safari of Fun.",
+    "hours": "Monday-Friday 10am-6pm Saturday 10am-8pm Sunday 10am-7pm",
+    "location": "https://www.google.com/maps/place/Busch+Gardens/@28.036352,-82.422457,14z/data=!4m6!1m3!3m2!1s0x0:0xbb0114385ea7e41b!2sBusch+Gardens!3m1!1s0x0:0xbb0114385ea7e41b"
+}, {
+    "name": "Top Golf",
+    "website": "http://www.topgolf.com/us/tampa/",
+    "address": "10690 Palm river Road Tampa, Florida 33619",
+    "description": "Topgolf is the premier golf entertainment complex where the competition of sport meets your favorite local hangout. You can challenge your friends and family to addictive point-scoring golf games that anyone from the hopeful pro golfer to your neighbor’s 7-year-old kid can play year-round. Score even bigger with Top golf’s extensive food and beverage menu that is sure to impress even the pickiest of foodies.",
+    "hours": "Sunday-Thursday 9am-12am Friday 9am-2am Saturday 8am-2am",
+    "location": "https://www.google.com/maps/place/Topgolf+Tampa/@27.931921,-82.334832,15z/data=!4m2!3m1!1s0x0:0x8716b6986713c1e2"
+}]
