@@ -3,3 +3,6 @@ dist
 .tmp
 .sass-cache
 bower_components
+.DS_Store
+app/.DS_Store
+app/scripts/.DS_Store
