@@ -7,7 +7,7 @@
  * # MainCtrl
  * Controller of the dayOutApp
  */
-angular.module('dayOutApp')
+angular.module('dayOutapp')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

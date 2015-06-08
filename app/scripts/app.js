@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('dayOutApp', [
+  .module('dayOutapp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
