@@ -1,0 +1,21 @@
+[{
+    "name": "Ybor City Saturday Market ",
+    "website": "http://www.ybormarket.com",
+    "address": "1901 19th Street Tampa, Florida 33605",
+    "description": "Operating since 2000, the Ybor City Saturday Market is the largest continually operating outdoor market in the Tampa Bay Area.  Centered in Tampa's Historic District, the market is one of the most popular shopping destinations for locally produced items unique to the Tampa Bay Area. The Ybor City Saturday Market offers a unique opportunity for customers to meet the artist as well as see one of a kind pieces created in the artist’s booth as well as purchase locally produced gourmet foods representing the area.",
+    "hours": "Every Saturday 9am-1pm",
+    "location": "https://www.google.com/maps/place/Ybor+City+Saturday+Market/@27.961092,-82.437815,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x9c78dda7a896d73a"
+}, {
+    "name": "Yacht Starship",
+    "website": "http://www.yachtstarship.com",
+    "address": "603 Channelside Drive Tampa, Florida 33602",
+    "description": "Yacht Starship, America’s First 3-diamond rated Dining Yacht by AAA, ranks in the top 28% of all restaurants. Exquisite dining cruises offer private seating, table side service, spectacular views and dancing under the stars. Just minutes from the Tampa Convention Center, Ybor City, Tampa Riverwalk, and Downtown Tampa Hotels.",
+    "hours": "9am-6pm",
+    "location": "https://www.google.com/maps/place/Yacht+StarShip/@27.942293,-82.448264,17z/data=!4m6!1m3!3m2!1s0x0:0x685acc5fb867f1dd!2sYacht+StarShip!3m1!1s0x0:0x685acc5fb867f1dd"
+}, {
+    "name": "Chillounge",
+    "website": "http://www.chilloungenight.com",
+    "description": "The combination of great entertainment, subtle lighting, 2 semi-trucks of chic outdoor furniture, and outstanding service staff creates the “Ultimate cool outdoor lounge experience”. A variety of food and beverage options ensures the full conversion into a relaxed environment and sets this annual event night apart from other social gathering entertainment events.",
+    "hours": "hours vary on event",
+    "location": "varies on city hosting event"
+}]

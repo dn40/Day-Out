@@ -1,0 +1,21 @@
+[{
+    "name": "Fly Bar and Restaurant",
+    "website": "http://www.flybarandrestaurant.com",
+    "address": "1202 North Franklin St Tampa, Florida 33602",
+    "description": "A one-of-a-kind gem in downtown Tampa, this eclectic bar features a sophisticated but inviting atmosphere with vibrant murals highlighting the urban chic décor. Daily entertainment is provided by live music or DJs, with regulars playing during the week and a variety of guest acts on the weekends. If it gets too noisy, you can get a breath of fresh air on the city's only open-air rooftop bar offering a unique view of the downtown skyline. Choose from the thoughtfully chosen beer and wine list, or go for one of the genius cocktails crafted with fresh, flavorful ingredients like ginger, lemongrass, elderflower and mint. You can also pair your deliciously distinctive drinks with sophisticated bar fare, including light and zesty fish tacos.",
+    "hours": "Monday-Friday 4pm-3am Saturday 5:30pm-3am Sunday 4pm-Midnight",
+    "location": "https://www.google.com/maps/place/fly+bar+tampa/data=!4m2!3m1!1s0x0:0xb36285c3dbb867f9?sa=X&ei=GbBsVdeWKubIsAT6nIH4CQ&ved=0CC0QrwswAA"
+}, {
+    "name": "Channelside",
+    "website": "http://www.channelsidebayplaza.com",
+    "address": "615 Channelside Drive Tampa, Florida 33602",
+    "description": "Channelside Tampa is an entertainment complex located in downtown Tampa. This neighborhood is one of the fastest growing areas of Tampa with high rise condominiums, shops, dining, and entertainment venues. There are plenty of bars & night clubs in Channelside many including outside patio bars and live music. Channelside restaurants offer a dining experience for everyone including outdoor dining & upscale restaurants for a more intimate experience. Not only will you find a variety of bars & restaurants, there are several specialty shops providing shopping in Channelside. Come see the large cargo ships and commercial cruises enter and leave Tampa's Port. Listen to live music, catch one of the numerous special events, or just relax in the courtyard. Include in your visit some time for the Florida Aquarium or a Tampa Bay Lightning game at the St Pete Times Forum. Channelside has trolley transportation from downtown Tampa and Ybor City as well as, valet parking, and a parking garage. You can also take a walk along the Tampa Riverwalk that spans all the way through Downtown. A new event that just started is First Friday which is a pub crawl celebration every First Friday of the month. There are so many things to do that you may want to consider staying in one of the hotels near Channelside.",
+    "hours": "9am-3am daily",
+    "location": "https://www.google.com/maps/place/Channel+District,+Tampa,+FL/@27.9509034,-82.4509515,15z/data=!4m2!3m1!1s0x88c2c4f6600f3803:0x2d07a0b8585ff136"
+}, {
+    "name": "Ybor City",
+    "website": "http://www.yborcityonline.com",
+    "description": "Enjoy Historic Ybor City’s exotic blend of sights and sounds, with a rich history to explore during the day and a sizzling nightlife to experience after sundown. The district’s vibrant community embraces its past to create a culture that is uniquely Ybor city.",
+    "hours": "9am-3am daily",
+    "location": "https://www.google.com/maps/place/Ybor+City,+Tampa,+FL+33605/@27.9650212,-82.4350941,17z/data=!3m1!4b1!4m2!3m1!1s0x88c2c504456270f7:0x958eb953b297f6f4"
+}]
