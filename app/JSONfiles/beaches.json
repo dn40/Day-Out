@@ -3,16 +3,19 @@
     "website": "http://www.clearwaterbeach.com",
     "description": "Clearwater Beach is a very popular and busy beach voted the 'Best Beach Town in Florida' by USA Today readers in January 2013. In addition to meticulously groomed beaches and tons of beach amenities, Clearwater Beach offers many additional attractions. Fishing, dolphin-watching and leisure charters are available close-by. You can also visit the famous dolphin Winter who lives at the nearby Clearwater Aquarium. Some of the best seafood restaurants in the Tampa Bay area are found here including perennial favorite, Frenchy's. There are also a wide variety of clubs and nightlife including two-story dance club, The Wave, at Shepherd's Beach Resort. There are always events going on and every evening people gather at The Pier to take part in the sunset celebration that includes entertainment and a craft market.",
     "hours": "24 hours a day",
+    "image": "images/clearwaterbeach.png",
     "location": "https://www.google.com/maps/place/Clearwater+Beach,+Clearwater,+FL+33767/@27.9874555,-82.8195094,13z/data=!4m2!3m1!1s0x88c2e948cae1c0d5:0xa2a27a0b28eb9f12"
 }, {
     "name": "St. Pete Beach",
     "website": "http://www.stpetebeach.com",
     "description": "St. Pete Beach truly has something for everyone and was named 'One of America's Top 10 Best Beach Towns for 2013' by Parents magazine. Yes, it has white sand beaches and warm Gulf waters, but it's the extras that make this beach special. There are plenty of beach-side amenities including restaurants, Tiki bars, cabana rentals, jet ski rentals and other adventure opportunities. If you're staying overnight there are plenty of full-service resorts and boutique hotels lining the beach. Explore the shopping opportunities along historic Corey Avenue and take some time to tour the beautiful Don Cesar Resort. This huge pink Mediterranean-style hotel was built during the jazz-age and has been the standard of luxury ever since.",
     "hours": "24 hours a day",
+    "image": "images/stpetebeach.png",
     "location": "https://www.google.com/maps/place/St+Pete+Beach,+FL/@27.7205406,-82.7430015,13z/data=!3m1!4b1!4m2!3m1!1s0x88c3029f9de5dea9:0x98aafcc9726f8c6a"
 }, {
     "name": "Ben T Davis Beach",
     "description": "If you're vacationing in Tampa and are looking for a beach close-by that offers powdery white sand for lounging, calm water for cooling off and shelters for picnics, then Davis Beach is for you. This is the closest beach to downtown Tampa and the locals' favorite tailgate spot. Davis offers ideal proximity to the airport for travelers who value efficiency. Tuesday evenings and Saturday mornings see the beach populated by local volleyball players. This is one of the best spots in town to watch the sunset and is located adjacent to the new Courtney Campbell Trail, a four-mile biking and pedestrian bridge.",
     "hours": "24 hours a day",
+    "image": "images/bentdavisbeach.png",
     "location": "https://www.google.com/maps/place/Ben+T+Davis+Beach/@27.968545,-82.579639,14z/data=!4m2!3m1!1s0x0:0xc6c67349ca660ba7"
 }]

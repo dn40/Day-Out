@@ -8,54 +8,46 @@
  *
  * Main module of the application.
  */
-angular
-  .module('dayOutapp', [
-    'ngAnimate',
-    'ngCookies',
-    'ngResource',
-    'ngRoute',
-    'ngSanitize',
-    'ngTouch'
-  ])
-  .config(function ($routeProvider) {
-    $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
-      })
-      .otherwise({
-        redirectTo: '/'
-      });
-  });
-// script.js
+ // / script.js
 
-// create the module and name it scotchApp
-// also include ngRoute for all our routing needs
-var scotchApp = angular.module('scotchApp', ['ngRoute']);
+    // create the module and name it scotchApp
+        // also include ngRoute for all our routing needs
+    var dayOutapp = angular.module('dayOutapp', ['ngRoute']);
 
-// configure our routes
-scotchApp.config(function($routeProvider) {
-    $routeProvider
+    // configure our routes
+    dayOutapp.config(function($routeProvider) {
+        $routeProvider
 
-    // route for the home page
-        .when('/', {
-        templateUrl: 'pages/home.html',
-        controller: 'mainController'
-    })
+            .when('/beaches', {
+                templateUrl : 'views/beaches.html',
+                controller  : 'BeachesListCtrl'
+            })
 
-    // route for the about page
-    .when('/about', {
-        templateUrl: 'pages/about.html',
-        controller: 'aboutController'
-    })
+            .when('/restaurants', {
+                templateUrl : 'views/restaurants.html',
+                controller  : 'RestaurantsListCtrl'
+            })
 
-    // route for the contact page
-    .when('/contact', {
-        templateUrl: 'pages/contact.html',
-        controller: 'contactController'
+            .when('/attractions', {
+                templateUrl : 'views/attractions.html',
+                controller  : 'AttractionsListCtrl'
+            })
+
+            .when('/events', {
+                templateUrl : 'views/events.html',
+                controller  : 'EventsListCtrl'
+            })
+
+            .when('/nightlife', {
+                templateUrl : 'views/nightlife.html',
+                controller  : 'NightlifeListCtrl'
+            })
+
+            // route for the contact page
+            .when('/', {
+                templateUrl : 'index.html',
+                controller  : ''
+            });
     });
-});
+
+    
