@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+</head>
+<!--<body ng-app="dayOutApp">-->
+<!--fonts awesome-->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
+
+<body>
+    <div id="nightlife" ng-controller="NightlifeListCtrl as nightlifeplaces">
+        <ol ng-show="tab === 2"><i class="fa fa-glass fa-2x"></i> Nightlife:
+            <li ng-repeat="nightlife in nightlifeplaces| filter:query | orderBy:'name'"> {{nightlife.name}} <a href="" ng-click="showme=true"> Show - </a><a href="" ng-click="showme=false">Hide</a>
+                <div class="placedetails">
+                    <p ng-show="showme"><img class="details" ng-src={{nightlife.image}}></p>
+                    <p ng-show="showme">{{nightlife.description}}</p>
+                    <p ng-show="showme"> Website: <a href={{nightlife.website}}>{{nightlife.website}}</a></p>
+                    <p ng-show="showme"> Hours: {{nightlife.hours}}</p>
+                    <p ng-show="showme"><i class="fa fa-location-arrow fa-2x"></i>
+                        <a href={{nightlife.location}}> Driving Directions</a>
+                    </p>
+                </div>
+            </li>
+        </ol>
+    </div>
+</body>
+
+</html>

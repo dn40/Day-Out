@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+</head>
+<!--<body ng-app="dayOutApp">-->
+<!--fonts awesome-->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
+
+<body>
+    <div id="attractions" ng-controller="AttractionsListCtrl as attractions">
+        <ol ng-show="tab === 5"><i class="fa fa-smile-o fa-2x"></i> Attractions:
+            <li ng-repeat="attraction in attractions"> {{attraction.name}} <a href="" ng-click="showme=true"> Show - </a><a href="" ng-click="showme=false">Hide</a>
+                <div class="placedetails">
+                    <p ng-show="showme"><img class="details" ng-src={{attraction.image}}></p>
+                    <p ng-show="showme">{{attraction.description}}</p>
+                    <p ng-show="showme"> Website: <a href={{attraction.website}}>{{attraction.website}}</a></p>
+                    <p ng-show="showme"> Hours: {{attraction.hours}}</p>
+                    <p ng-show="showme"><i class="fa fa-location-arrow fa-2x"></i>
+                        <a href={{attraction.website}}><i class="fa fa-link"></i> Visit their site</a></p>
+                </div>
+            </li>
+        </ol>
+    </div>
+</body>
+
+</html>
